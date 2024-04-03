@@ -1,0 +1,36 @@
+/*
+exercicio 1:
+-a cor padrão do link deverá ser vermelha (red) e deverá mudar para limão (lemon) quando sobreposta pelo mouse
+*/
+
+a {color: red;}
+a:hover {color: lime;}
+
+/*
+exercicio 2: 
+-parágrafos em geral terão a fonte Arial
+-parágrafos declarados logo após h1 ficarão em negrito
+*/
+p {
+    font-family: Arial;
+}
+
+h1 + p {
+    font-weight: bold;
+}
+
+/*
+exercicio 3:
+-por padrão, utilizará a fonte Arial
+-se atribuída a um parágrafo, ficará em negrito
+-se atribuída a um <strong> , ficará em vermelho
+*/
+.destaque {
+    font-family: Arial;
+}
+p.destaque {
+    font-weight: bold;
+}
+strong.destaque {
+    color: red;
+}
