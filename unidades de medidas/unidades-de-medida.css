@@ -1,0 +1,19 @@
+/*
+Dada a cor definida no formato RGB rgb(219, 78, 68), calcule duas possíveis variações, uma 15% mais clara, outra 15% mais escura. Coloque as cores lado-a-lado e compare os resultados.
+*/
+
+html {
+    font-size: 20px;
+}
+
+.cor {
+    color: rgb(219, 78, 68);
+}
+
+.cor-clara {
+    color: rgb(252, 90, 78);
+}
+
+.cor-escura {
+    color: rgb(186, 66, 58);
+}
