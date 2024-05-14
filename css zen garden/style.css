@@ -1,0 +1,18 @@
+/* COLOR THEMES
+.1 { color: #D9BB84; }
+.2 { color: #59462E; }
+.3 { color: #400D09; }
+.4 { color: #59150E; }
+.5 { color: #F2F2F2; }
+*/
+
+html {
+    background: #D9BB84;
+    color: #59150E;
+}
+
+a { color: #F2F2F2; }
+
+strong { color: #F2F2F2; }
+
+abbr { color: #F2F2F2; }
