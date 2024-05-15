@@ -1,0 +1,41 @@
+p {
+    width: 500px;
+    height: 300px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 30px;
+    
+
+    /*pra facilitar o processo de definição de diversas edições a um memso atributo, é possível colocar todas as informações em apenas uma linha
+    (border: solid 1px blue), for example
+    */
+
+    /*é possível fazer a formatação de apenas lados específicos do elemento, é necessário apenas inserir no nome do atributo qual a direção (left, right, top, bottom*/
+
+    background-color: cadetblue;
+    /*
+    background-image: url(); ->> insere uma imagem de fundo
+    background-repeat: no repeat; ->> não repete a imagem à medida que se ajusta o seu tamanho
+    background-position: left; ->> posiciona essa imagem em diversas direções
+    */
+}
+
+h1 {
+    margin: 30px;
+}
+
+em, strong, a {
+    border: dashed 2px red;
+    background-color: yellowgreen;
+
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    margin: 30px;
+
+    display: inline-block;
+}
